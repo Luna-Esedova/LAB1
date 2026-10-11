@@ -1,0 +1,27 @@
+birth_year=int(input())
+zodiac_cycle=birth_year%12
+if zodiac_cycle==0 :
+    print("Your Chinese Zodiac sign is: Monkey")
+elif zodiac_cycle==1 :
+    print("Your Chinese Zodiac sign is: Rooster")
+elif zodiac_cycle==2 :
+    print("Your Chinese Zodiac sign is: Dog")
+elif zodiac_cycle==3 :
+    print("Your Chinese Zodiac sign is: Pig") 
+elif zodiac_cycle==4 :
+    print("Your Chinese Zodiac sign is: Rat")
+elif zodiac_cycle==5 :
+    print("Your Chinese Zodiac sign is: Ox")
+elif zodiac_cycle==6 :
+    print("Your Chinese Zodiac sign is: Tiger")
+elif zodiac_cycle==7 :
+    print("Your Chinese Zodiac sign is: Rabbit")
+elif zodiac_cycle==8 :
+    print("Your Chinese Zodiac sign is: Dragon")
+elif zodiac_cycle==9 :
+    print("Your Chinese Zodiac sign is: Snake")
+elif zodiac_cycle==10 :
+    print("Your Chinese Zodiac sign is: Horse")
+elif zodiac_cycle==11 :
+    print("Your Chinese Zodiac sign is: Sheep")
+

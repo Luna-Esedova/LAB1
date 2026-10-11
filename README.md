@@ -1,27 +1,27 @@
-# LAB1 - Python Proqramları
+# LAB1 - Python Programs
 
-Bu depoda Python dilində yazılmış 3 müxtəlif praktik kiçik proqram/skript toplanmışdır.
-
----
-
-## 📂 Layihənin Strukturu və Proqramlar
-
-### 1. BMI Hesablama (`BMI_hesablama.txt`)
-* **Təsvir:** İstifadəçinin daxil etdiyi çəki və boy göstəricilərinə əsasən bədən kütlə indeksini (BMI - Body Mass Index) hesablayır və uyğun çəki kateqoriyasını müəyyən edir.
-* **Necə işləyir:** Boy (metrlə) və çəki (kq) dəyərlərini qəbul edərək riyazi düstur vasitəsilə nəticəni ekrana çıxarır.
-
-### 2. Çin Bürcü İşarəsi (`Çin_Bürcü_İşarəsi.txt`)
-* **Təsvir:** İstifadəçinin doğum ilini daxil etməklə Çin astrologiyasına uyğun olaraq hansı bürcə (heyvan simvoluna) aid olduğunu hesablayır.
-* **Necə işləyir:** Daxil edilən ili 12-yə bölməklə qalan qalıq əsasında müvafiq Çin bürcünü təyin edir.
-
-### 3. Doğum Gününün Tapılması (`find_birthday.txt`)
-* **Təsvir:** Müəyyən tarix hesablamaları və ya yaşa əsasən doğum tarixini tapmağa kömək edən köməkçi skriptdir.
+This repository contains 3 different practical small programs/scripts written in Python.
 
 ---
 
-## 🚀 İstifadə qaydaları
+## 📂 Project Structure and Programs
 
-1. İstədiyiniz proqramın kodunu `.txt` faylından kopyalayın.
-2. Fayl uzantısını `.py` edərək (məsələn: `bmi_hesablama.py`) yerli mühitinizdə işlədin:
+### 1. BMI Calculation (`BMI_hesablama.txt`)
+* **Description:** Calculates the Body Mass Index (BMI) based on the weight and height entered by the user and determines the corresponding weight category.
+* **How it works:** Accepts height (in meters) and weight (in kg) values and outputs the result using a mathematical formula.
+
+### 2. Chinese Zodiac Sign (`Çin_Bürcü_İşarəsi.txt`)
+* **Description:** Calculates the user's Chinese zodiac sign (animal symbol) based on their birth year.
+* **How it works:** Determines the corresponding Chinese zodiac sign based on the remainder when the entered year is divided by 12.
+
+### 3. Find Birthday (`find_birthday.txt`)
+* **Description:** A helper script designed to assist in finding the birth date based on specific date calculations or age.
+
+---
+
+## 🚀 How to Use
+
+1. Copy the code of your desired program from the `.txt` file.
+2. Change the file extension to `.py` (e.g., `bmi_hesablama.py`) and run it in your local environment:
    ```bash
    python bmi_hesablama.py
